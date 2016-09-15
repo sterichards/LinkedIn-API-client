@@ -67,7 +67,7 @@ instance.
 ```php
 $linkedIn=new Happyr\LinkedIn\LinkedIn('app_id', 'app_secret');
 $linkedIn->setHttpClient(new \Http\Adapter\Guzzle6\Client());
-$linkedIn->setHttpMessageFactory(new Http\Message\MessageFactory\GuzzleMessageFactory());
+$linkedIn->setHttpMessageFactory(new \Http\Message\MessageFactory\GuzzleMessageFactory());
 
 ```
 
